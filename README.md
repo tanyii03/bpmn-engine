@@ -1,3 +1,4 @@
+```python
 bpmn_diagram = diagram.BpmnDiagramGraph()
 bpmn_diagram.load_diagram_from_xml_file("default-conditional-flow-example.bpmn")
 
@@ -15,3 +16,4 @@ for flow in flows:
 
 engine = BpmnProcess()
 engine.start_process(bpmn_diagram)   
+```
